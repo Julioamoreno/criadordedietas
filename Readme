@@ -1,9 +1,12 @@
-RF
+# CRIADOR DE DIETAS - SERVER
 
--
+## Linguagens
 
-RNF
+-   NodeJS
+-   Framework Express
+-   TDD utilizando JEST
 
-Regras de Negocio:
--Somente usuarios cadastrados podem ter acesso ao sistema.
--Somente 
+## Info
+#### Projeto em andamento
+Este projeto tem o objetivo de aprimorar o desenvolvimento de seu criador. 
+
