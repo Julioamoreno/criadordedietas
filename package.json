@@ -1,9 +1,10 @@
 {
-  "name": "testes-com-nodejs",
+  "name": "criadordedietas-server",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app",
+    "dev": "nodemon app",
+    "start": "node app",
     "test": "jest"
   },
   "dependencies": {
