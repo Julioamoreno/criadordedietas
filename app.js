@@ -36,6 +36,6 @@ app.use('/admin', gerenciaRouter);
 app.use('/dieta', dietaRouter);
 
 
-app.listen(process.env.Port || 4000);
+app.listen(process.env.PORT || 4000);
 
 module.exports = app;
