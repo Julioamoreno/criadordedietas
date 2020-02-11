@@ -19,9 +19,9 @@ const InserirUsers = {
         }
 
         let user = await User.create({
-            nome,
-            login,
-            senha,
+        nome,
+        login,
+        senha,
         }).catch(err => {
             res.status(400).send({ erro: `Erro ao criar usuário, ${err}` })
         });
