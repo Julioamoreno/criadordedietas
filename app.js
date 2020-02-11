@@ -36,8 +36,6 @@ app.use('/admin', gerenciaRouter);
 app.use('/dieta', dietaRouter);
 
 
-app.listen(process.env.Port||4000, () => {
-  console.log('App listening on port 4000!');
-});
+app.listen(process.env.Port || 4000);
 
 module.exports = app;
