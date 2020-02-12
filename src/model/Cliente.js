@@ -26,7 +26,6 @@ const ClienteSchema = new mongoose.Schema({
     nutricionista_id: {
         type: mongoose.Types.ObjectId,
         required: true,
-        unique: true,
     },
     contato: {
         telefone: {
